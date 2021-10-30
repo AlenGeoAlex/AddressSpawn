@@ -18,8 +18,8 @@ public class Configuration {
 
     private void init(){
         pluginConfig = plugin.getFileUtils().createConfiguration();
+        pluginConfig.setDefault("version",plugin.getDescription().getVersion());
         loadConfig();
-
     }
 
     public void initOthers(){
