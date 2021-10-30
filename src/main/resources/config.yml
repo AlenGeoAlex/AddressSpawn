@@ -1,0 +1,5 @@
+version:
+
+clear-login-cache-in-sec: 15
+teleport-only-on-first-join: false
+teleport-after-delay-ticks: 10

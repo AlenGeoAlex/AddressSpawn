@@ -1,0 +1,7 @@
+name: AddressSpawn
+version: '${project.version}'
+main: me.alen_alex.addressspawn.AddressSpawn
+api-version: 1.17
+prefix: AS
+authors: [ Alen_Alex ]
+description: A plugin which spawns player based on Player connecting Host Address
