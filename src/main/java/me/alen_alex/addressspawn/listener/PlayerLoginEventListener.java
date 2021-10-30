@@ -26,7 +26,6 @@ public class PlayerLoginEventListener implements Listener {
         }
         String[] args = host.split("\\.");
         final String subDomain = args[0];
-        plugin.getLogger().info(subDomain);
         plugin.getPluginManager().getAddressCache().put(event.getPlayer().getUniqueId(),subDomain);
         plugin.getLogger().info(player.getName()+" joined through the address "+event.getHostname());
     }

@@ -25,7 +25,8 @@ public final class AddressSpawn extends JavaPlugin{
     @Override
     public void onEnable() {
         plugin = this;
-        chatUtils = new ChatUtils(this);
+        chatUtils = new ChatUtils(this,"&7[&bA&eS&7] »");
+
         fileUtils = new FileUtils(this);
         configuration = new Configuration(this);
         pluginManager = new PluginManager(this);
